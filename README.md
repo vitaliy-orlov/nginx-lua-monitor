@@ -22,3 +22,5 @@ site.com;banned;4
 site.com;ajax;120
 site.com;bytes;5431
 ```
+
+There is also support output in JSON format.
