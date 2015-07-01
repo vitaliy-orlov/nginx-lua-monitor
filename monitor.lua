@@ -35,7 +35,7 @@ local function monitor()
         list:incr(keys.bn, 1);
     end
 
-    if ngx.header['X-RequestWith'] ~= nil then
+    if ngx.header['X-Requested-With'] ~= nil then
         list:incr(keys.ajax, 1);
     end
 
